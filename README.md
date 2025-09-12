@@ -8,6 +8,8 @@
 
 **Chess Smart Thinking** is a multi-service, event-driven machine learning pipeline that scrapes chess.com data, analyzes it, trains a model to predict human thinking time, and provides a frontend for gameplay against the trained model.
 
+### Note: The UI for this project isn't ready and deployed yet.
+
 ---
 
 ## 🚀 Features
@@ -22,28 +24,28 @@
 
 ## 🏗 Architecture & Tech Stack
 
-### Service 1: Frontend
-- **Tech:** Next.js, React.js, Chess.js, TensorFlow.js, Tailwind CSS  
+### Service 1: ![Frontend](https://github.com/tawfiqkhalilieh/chess_data_scraper)
+- **Technologies:** Next.js, React.js, Chess.js, TensorFlow.js, Tailwind CSS  
 - Provides the user interface and gameplay experience.
 
-### Service 2: Service Arbiter & Training
-- **Tech:** Python, FastAPI, Pydantic, Redis, TensorFlow, NumPy, MongoDB  
+### Service 2: ![Service Arbiter & Training](https://github.com/tawfiqkhalilieh/chess_smart_thinking_service_arbiter)
+- **Technologies:** Python, FastAPI, Pydantic, Redis, TensorFlow, NumPy, MongoDB  
 - Coordinates services and manages ML training pipelines.
 
-### Service 3: Data Scraper
-- **Tech:** Go, Gin, Chess.com API, MongoDB, Redis  
+### Service 3: ![Data Scraper](https://github.com/tawfiqkhalilieh/chess_data_scraper)
+- **Technologies:** Go, Gin, Chess.com API, MongoDB, Redis  
 - Fetches and stores user game data.
 
-### Service 4: Data Analysis
-- **Tech:** C++, OkAPI, MongoDB, Stockfish  
+### Service 4: ![Data Labeling and Position analyzation](https://github.com/tawfiqkhalilieh/chess_time_positions_analyzations_data_labeling)
+- **Technologies:** C++, OkAPI, MongoDB, Stockfish  
 - Analyzes games, labels data, and prepares it for training.
 
-### DevOps
+### Other used technologies 
 - Docker & Docker Compose for containerized deployment.
 - Git for version control.
 
 ### Architecture: Even drivcn architecture
-![Architecture Diagram]("./images/drawio.png")
+![Architecture Diagram]("images/drawio.png")
 
 ---
 
@@ -53,4 +55,6 @@
 git clone git@github.com:tawfiqkhalilieh/chess_smart_thinking.git
 cd chess_smart_thinking
 docker compose up --build
+```
 
+## Want to see me succeed ? Hit me up on !(Linkedin)[https://www.linkedin.com/in/tawfiq-khalilieh/]
