@@ -24,19 +24,19 @@
 
 ## 🏗 Architecture & Tech Stack
 
-### Service 1: ![Frontend](https://github.com/tawfiqkhalilieh/chess_data_scraper)
+### Service 1: [Frontend](https://github.com/tawfiqkhalilieh/chess_data_scraper)
 - **Technologies:** Next.js, React.js, Chess.js, TensorFlow.js, Tailwind CSS  
 - Provides the user interface and gameplay experience.
 
-### Service 2: ![Service Arbiter & Training](https://github.com/tawfiqkhalilieh/chess_smart_thinking_service_arbiter)
+### Service 2: [Service Arbiter & Training](https://github.com/tawfiqkhalilieh/chess_smart_thinking_service_arbiter)
 - **Technologies:** Python, FastAPI, Pydantic, Redis, TensorFlow, NumPy, MongoDB  
 - Coordinates services and manages ML training pipelines.
 
-### Service 3: ![Data Scraper](https://github.com/tawfiqkhalilieh/chess_data_scraper)
+### Service 3: [Data Scraper](https://github.com/tawfiqkhalilieh/chess_data_scraper)
 - **Technologies:** Go, Gin, Chess.com API, MongoDB, Redis  
 - Fetches and stores user game data.
 
-### Service 4: ![Data Labeling and Position analyzation](https://github.com/tawfiqkhalilieh/chess_time_positions_analyzations_data_labeling)
+### Service 4: [Data Labeling and Position analyzation](https://github.com/tawfiqkhalilieh/chess_time_positions_analyzations_data_labeling)
 - **Technologies:** C++, OkAPI, MongoDB, Stockfish  
 - Analyzes games, labels data, and prepares it for training.
 
@@ -57,4 +57,4 @@ cd chess_smart_thinking
 docker compose up --build
 ```
 
-## Want to see me succeed ? Hit me up on !(Linkedin)[https://www.linkedin.com/in/tawfiq-khalilieh/]
+## Want to see me succeed ? Hit me up on [Linkedin](https://www.linkedin.com/in/tawfiq-khalilieh/)
