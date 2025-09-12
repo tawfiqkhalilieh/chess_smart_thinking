@@ -24,7 +24,7 @@
 
 ## 🏗 Architecture & Tech Stack
 
-### Service 1: [Frontend](https://github.com/tawfiqkhalilieh/chess_data_scraper)
+### Service 1: [Frontend](https://github.com/tawfiqkhalilieh/chess_data_scraper) (NOT READY YET)
 - **Technologies:** Next.js, React.js, Chess.js, TensorFlow.js, Tailwind CSS  
 - Provides the user interface and gameplay experience.
 
@@ -44,7 +44,7 @@
 - Docker & Docker Compose for containerized deployment.
 - Git for version control.
 
-### Architecture: Even drivcn architecture
+### Architecture: An Event driven architecture
 ![Architecture Diagram](images/drawio.png)
 
 ---
