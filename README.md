@@ -45,7 +45,7 @@
 - Git for version control.
 
 ### Architecture: Even drivcn architecture
-![Architecture Diagram]("images/drawio.png")
+![Architecture Diagram](images/drawio.png)
 
 ---
 
