@@ -1,0 +1,3 @@
+[submodule "chess_smart_thinking_model"]
+	path = chess_smart_thinking_model
+	url = git@github.com:tawfiqkhalilieh/chess_smart_thinking_model.git
